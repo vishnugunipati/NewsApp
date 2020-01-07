@@ -41,13 +41,13 @@ export default class ListThumbnailExample extends Component {
         data: data
       });
     }, error => {
-      Alert.alert('Error', 'Something went wrong!');
+      Alert.alert('Error', 'Internet Too Slowwwww!!!!!');
     }
     )
   }
 
   render() {
-    // console.log(this.state.data);
+    console.log(this.state.data);
 
     let view = this.state.isLoading ? (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
